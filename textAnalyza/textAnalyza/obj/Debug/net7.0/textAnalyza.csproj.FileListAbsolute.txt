@@ -1,0 +1,10 @@
+/Users/vitungermann/Desktop/seminář programování/textAnalyza/textAnalyza/bin/Debug/net7.0/textAnalyza
+/Users/vitungermann/Desktop/seminář programování/textAnalyza/textAnalyza/bin/Debug/net7.0/textAnalyza.dll
+/Users/vitungermann/Desktop/seminář programování/textAnalyza/textAnalyza/bin/Debug/net7.0/textAnalyza.pdb
+/Users/vitungermann/Desktop/seminář programování/textAnalyza/textAnalyza/obj/Debug/net7.0/textAnalyza.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitungermann/Desktop/seminář programování/textAnalyza/textAnalyza/obj/Debug/net7.0/textAnalyza.AssemblyInfoInputs.cache
+/Users/vitungermann/Desktop/seminář programování/textAnalyza/textAnalyza/obj/Debug/net7.0/textAnalyza.AssemblyInfo.cs
+/Users/vitungermann/Desktop/seminář programování/textAnalyza/textAnalyza/obj/Debug/net7.0/textAnalyza.csproj.CoreCompileInputs.cache
+/Users/vitungermann/Desktop/seminář programování/textAnalyza/textAnalyza/obj/Debug/net7.0/textAnalyza.dll
+/Users/vitungermann/Desktop/seminář programování/textAnalyza/textAnalyza/obj/Debug/net7.0/refint/textAnalyza.dll
+/Users/vitungermann/Desktop/seminář programování/textAnalyza/textAnalyza/obj/Debug/net7.0/textAnalyza.pdb
