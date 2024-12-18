@@ -1,0 +1,10 @@
+/Users/vitungermann/Desktop/seminář programování/hory/hory/bin/Debug/net7.0/hory
+/Users/vitungermann/Desktop/seminář programování/hory/hory/bin/Debug/net7.0/hory.dll
+/Users/vitungermann/Desktop/seminář programování/hory/hory/bin/Debug/net7.0/hory.pdb
+/Users/vitungermann/Desktop/seminář programování/hory/hory/obj/Debug/net7.0/hory.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitungermann/Desktop/seminář programování/hory/hory/obj/Debug/net7.0/hory.AssemblyInfoInputs.cache
+/Users/vitungermann/Desktop/seminář programování/hory/hory/obj/Debug/net7.0/hory.AssemblyInfo.cs
+/Users/vitungermann/Desktop/seminář programování/hory/hory/obj/Debug/net7.0/hory.csproj.CoreCompileInputs.cache
+/Users/vitungermann/Desktop/seminář programování/hory/hory/obj/Debug/net7.0/hory.dll
+/Users/vitungermann/Desktop/seminář programování/hory/hory/obj/Debug/net7.0/refint/hory.dll
+/Users/vitungermann/Desktop/seminář programování/hory/hory/obj/Debug/net7.0/hory.pdb
