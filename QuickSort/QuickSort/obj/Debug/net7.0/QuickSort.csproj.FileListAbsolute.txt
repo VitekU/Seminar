@@ -1,0 +1,10 @@
+/Users/vitungermann/Desktop/seminář programování/QuickSort/QuickSort/bin/Debug/net7.0/QuickSort
+/Users/vitungermann/Desktop/seminář programování/QuickSort/QuickSort/bin/Debug/net7.0/QuickSort.dll
+/Users/vitungermann/Desktop/seminář programování/QuickSort/QuickSort/bin/Debug/net7.0/QuickSort.pdb
+/Users/vitungermann/Desktop/seminář programování/QuickSort/QuickSort/obj/Debug/net7.0/QuickSort.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitungermann/Desktop/seminář programování/QuickSort/QuickSort/obj/Debug/net7.0/QuickSort.AssemblyInfoInputs.cache
+/Users/vitungermann/Desktop/seminář programování/QuickSort/QuickSort/obj/Debug/net7.0/QuickSort.AssemblyInfo.cs
+/Users/vitungermann/Desktop/seminář programování/QuickSort/QuickSort/obj/Debug/net7.0/QuickSort.csproj.CoreCompileInputs.cache
+/Users/vitungermann/Desktop/seminář programování/QuickSort/QuickSort/obj/Debug/net7.0/QuickSort.dll
+/Users/vitungermann/Desktop/seminář programování/QuickSort/QuickSort/obj/Debug/net7.0/refint/QuickSort.dll
+/Users/vitungermann/Desktop/seminář programování/QuickSort/QuickSort/obj/Debug/net7.0/QuickSort.pdb

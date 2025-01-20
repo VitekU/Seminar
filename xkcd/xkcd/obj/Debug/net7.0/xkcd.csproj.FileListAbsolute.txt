@@ -1,0 +1,10 @@
+/Users/vitungermann/Desktop/seminář programování/xkcd/xkcd/bin/Debug/net7.0/xkcd
+/Users/vitungermann/Desktop/seminář programování/xkcd/xkcd/bin/Debug/net7.0/xkcd.dll
+/Users/vitungermann/Desktop/seminář programování/xkcd/xkcd/bin/Debug/net7.0/xkcd.pdb
+/Users/vitungermann/Desktop/seminář programování/xkcd/xkcd/obj/Debug/net7.0/xkcd.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitungermann/Desktop/seminář programování/xkcd/xkcd/obj/Debug/net7.0/xkcd.AssemblyInfoInputs.cache
+/Users/vitungermann/Desktop/seminář programování/xkcd/xkcd/obj/Debug/net7.0/xkcd.AssemblyInfo.cs
+/Users/vitungermann/Desktop/seminář programování/xkcd/xkcd/obj/Debug/net7.0/xkcd.csproj.CoreCompileInputs.cache
+/Users/vitungermann/Desktop/seminář programování/xkcd/xkcd/obj/Debug/net7.0/xkcd.dll
+/Users/vitungermann/Desktop/seminář programování/xkcd/xkcd/obj/Debug/net7.0/refint/xkcd.dll
+/Users/vitungermann/Desktop/seminář programování/xkcd/xkcd/obj/Debug/net7.0/xkcd.pdb

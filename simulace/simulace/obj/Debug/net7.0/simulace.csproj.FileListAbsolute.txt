@@ -1,0 +1,10 @@
+/Users/vitungermann/Desktop/seminář programování/simulace/simulace/bin/Debug/net7.0/simulace
+/Users/vitungermann/Desktop/seminář programování/simulace/simulace/bin/Debug/net7.0/simulace.dll
+/Users/vitungermann/Desktop/seminář programování/simulace/simulace/bin/Debug/net7.0/simulace.pdb
+/Users/vitungermann/Desktop/seminář programování/simulace/simulace/obj/Debug/net7.0/simulace.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitungermann/Desktop/seminář programování/simulace/simulace/obj/Debug/net7.0/simulace.AssemblyInfoInputs.cache
+/Users/vitungermann/Desktop/seminář programování/simulace/simulace/obj/Debug/net7.0/simulace.AssemblyInfo.cs
+/Users/vitungermann/Desktop/seminář programování/simulace/simulace/obj/Debug/net7.0/simulace.csproj.CoreCompileInputs.cache
+/Users/vitungermann/Desktop/seminář programování/simulace/simulace/obj/Debug/net7.0/simulace.dll
+/Users/vitungermann/Desktop/seminář programování/simulace/simulace/obj/Debug/net7.0/refint/simulace.dll
+/Users/vitungermann/Desktop/seminář programování/simulace/simulace/obj/Debug/net7.0/simulace.pdb

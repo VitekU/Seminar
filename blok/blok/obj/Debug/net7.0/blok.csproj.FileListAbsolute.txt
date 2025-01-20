@@ -1,0 +1,10 @@
+/Users/vitungermann/Desktop/seminář programování/blok/blok/bin/Debug/net7.0/blok
+/Users/vitungermann/Desktop/seminář programování/blok/blok/bin/Debug/net7.0/blok.dll
+/Users/vitungermann/Desktop/seminář programování/blok/blok/bin/Debug/net7.0/blok.pdb
+/Users/vitungermann/Desktop/seminář programování/blok/blok/obj/Debug/net7.0/blok.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitungermann/Desktop/seminář programování/blok/blok/obj/Debug/net7.0/blok.AssemblyInfoInputs.cache
+/Users/vitungermann/Desktop/seminář programování/blok/blok/obj/Debug/net7.0/blok.AssemblyInfo.cs
+/Users/vitungermann/Desktop/seminář programování/blok/blok/obj/Debug/net7.0/blok.csproj.CoreCompileInputs.cache
+/Users/vitungermann/Desktop/seminář programování/blok/blok/obj/Debug/net7.0/blok.dll
+/Users/vitungermann/Desktop/seminář programování/blok/blok/obj/Debug/net7.0/refint/blok.dll
+/Users/vitungermann/Desktop/seminář programování/blok/blok/obj/Debug/net7.0/blok.pdb

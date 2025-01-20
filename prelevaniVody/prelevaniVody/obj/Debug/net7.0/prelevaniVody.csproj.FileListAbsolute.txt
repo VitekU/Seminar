@@ -1,0 +1,10 @@
+/Users/vitungermann/Desktop/seminář programování/prelevaniVody/prelevaniVody/bin/Debug/net7.0/prelevaniVody
+/Users/vitungermann/Desktop/seminář programování/prelevaniVody/prelevaniVody/bin/Debug/net7.0/prelevaniVody.dll
+/Users/vitungermann/Desktop/seminář programování/prelevaniVody/prelevaniVody/bin/Debug/net7.0/prelevaniVody.pdb
+/Users/vitungermann/Desktop/seminář programování/prelevaniVody/prelevaniVody/obj/Debug/net7.0/prelevaniVody.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitungermann/Desktop/seminář programování/prelevaniVody/prelevaniVody/obj/Debug/net7.0/prelevaniVody.AssemblyInfoInputs.cache
+/Users/vitungermann/Desktop/seminář programování/prelevaniVody/prelevaniVody/obj/Debug/net7.0/prelevaniVody.AssemblyInfo.cs
+/Users/vitungermann/Desktop/seminář programování/prelevaniVody/prelevaniVody/obj/Debug/net7.0/prelevaniVody.csproj.CoreCompileInputs.cache
+/Users/vitungermann/Desktop/seminář programování/prelevaniVody/prelevaniVody/obj/Debug/net7.0/prelevaniVody.dll
+/Users/vitungermann/Desktop/seminář programování/prelevaniVody/prelevaniVody/obj/Debug/net7.0/refint/prelevaniVody.dll
+/Users/vitungermann/Desktop/seminář programování/prelevaniVody/prelevaniVody/obj/Debug/net7.0/prelevaniVody.pdb

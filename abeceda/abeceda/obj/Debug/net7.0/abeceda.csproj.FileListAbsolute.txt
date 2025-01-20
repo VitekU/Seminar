@@ -1,0 +1,10 @@
+/Users/vitungermann/Desktop/seminář programování/abeceda/abeceda/bin/Debug/net7.0/abeceda
+/Users/vitungermann/Desktop/seminář programování/abeceda/abeceda/bin/Debug/net7.0/abeceda.dll
+/Users/vitungermann/Desktop/seminář programování/abeceda/abeceda/bin/Debug/net7.0/abeceda.pdb
+/Users/vitungermann/Desktop/seminář programování/abeceda/abeceda/obj/Debug/net7.0/abeceda.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitungermann/Desktop/seminář programování/abeceda/abeceda/obj/Debug/net7.0/abeceda.AssemblyInfoInputs.cache
+/Users/vitungermann/Desktop/seminář programování/abeceda/abeceda/obj/Debug/net7.0/abeceda.AssemblyInfo.cs
+/Users/vitungermann/Desktop/seminář programování/abeceda/abeceda/obj/Debug/net7.0/abeceda.csproj.CoreCompileInputs.cache
+/Users/vitungermann/Desktop/seminář programování/abeceda/abeceda/obj/Debug/net7.0/abeceda.dll
+/Users/vitungermann/Desktop/seminář programování/abeceda/abeceda/obj/Debug/net7.0/refint/abeceda.dll
+/Users/vitungermann/Desktop/seminář programování/abeceda/abeceda/obj/Debug/net7.0/abeceda.pdb

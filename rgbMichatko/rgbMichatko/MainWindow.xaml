@@ -1,0 +1,40 @@
+﻿<Window x:Class="rgbMichatko.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rgbMichatko"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Name="rect" Height="300" Width="200" Grid.Column="0" Fill="Black" StrokeThickness="1" Stroke="Black"/>
+        <StackPanel Grid.Column="1" Margin="30" VerticalAlignment="Center">
+            <Label Content="RGB míchátko" FontSize="30"/>
+
+            <WrapPanel Name="wpRed" Margin="0 10 0 0">
+                <Label Background="Red" Content="Red" Padding="7"/>
+                <TextBox Text="0" Name="txtRed" PreviewTextInput="txt_PreviewTextInput" KeyDown="txtRed_Enter" Height="20" Width="60" Margin="10 0 0 0"/>
+            </WrapPanel>
+            <Slider Name="sliRed" ValueChanged="sli_ValueChanged" Margin="0 10 0 0" Width="255" HorizontalAlignment="Left" Value="0" Minimum="0" Maximum="255"/>
+
+            <WrapPanel Name="wpGreen" Margin="0 10 0 0">
+                <Label Background="Green" Content="Green" Padding="7"/>
+                <TextBox Text="0" Name="txtGreen" PreviewTextInput="txt_PreviewTextInput" KeyDown="txtGreen_Enter" Height="20" Width="60" Margin="10 0 0 0"/>
+            </WrapPanel>
+            <Slider Name="sliGreen" PreviewTextInput="txt_PreviewTextInput" ValueChanged="sli_ValueChanged" Margin="0 10 0 0" Width="255" HorizontalAlignment="Left" Value="0" Minimum="0" Maximum="255"/>
+
+            <WrapPanel Name="wpBlue" Margin="0 10 0 0">
+                <Label Background="Blue" Content="Blue" Padding="7" Foreground="White"/>
+                <TextBox Text="0" Name="txtBlue" PreviewTextInput="txt_PreviewTextInput" KeyDown="txtBlue_Enter" Height="20" Width="60" Margin="10 0 0 0"/>
+            </WrapPanel>
+            <Slider Name="sliBlue" ValueChanged="sli_ValueChanged" Margin="0 10 0 0" Width="255" HorizontalAlignment="Left" Value="0" Minimum="0" Maximum="255"/>
+            
+            <Label Name="lblHex" Content="#000000" HorizontalAlignment="Center" FontSize="40" Margin="0 10 0 0"/>
+        </StackPanel>
+    </Grid>
+</Window>
