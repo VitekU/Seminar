@@ -2,15 +2,11 @@ using System;
 using System.Collections.Generic;
 namespace BinaryTree
 {
-    public class Person : IReturnKey
+    public class Person
     {
         public int Age;
         public string Name;
-
-        public int ReturnKey()
-        {
-            return Age;
-        }
+        
         public Person(int a, string n)
         {
             Age = a;

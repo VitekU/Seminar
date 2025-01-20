@@ -2,27 +2,28 @@ using System;
 using System.Collections.Generic;
 namespace BinaryTree
 {
-    public interface IReturnKey
+    public class BinaryTree<T>
     {
-        int ReturnKey();
-    }
-    
-    public class BinaryTree<T> where T : IReturnKey
-    {
-        public Node<T>? Root;
-        
-        public void Insert(T item, Node<T>? root)
+        private Node<T>? _root;
+        private List<Node<T>> _listNodes = new List<Node<T>>();
+        private HashSet<int> _unikatniKlice = new HashSet<int>();
+         
+        public void Insert(T item, int value)
         {
-            Node<T> newNode = new Node<T>(item, item.ReturnKey());
-            MoveItemToPositon(Root, newNode);
-            
-            
+            Node<T> newNode = new Node<T>(item, value);
+            if (!_unikatniKlice.Contains(newNode.Key))
+            {
+                _unikatniKlice.Add(newNode.Key);
+                _listNodes.Add(newNode);
+            }
+            MoveItemToPositon(_root, newNode);
         }
-        public void MoveItemToPositon(Node<T>? root, Node<T> addedNode)
+        
+        private void MoveItemToPositon(Node<T>? root, Node<T> addedNode)
         {
             if (root == null)
             {
-                Root = addedNode;
+                _root = addedNode;
                 return;
             }
 
@@ -54,19 +55,28 @@ namespace BinaryTree
             }
         }
 
-        public void Show(Node<T>? root)
+        // show funkce, private a public aby root mohl byt private 
+        public void Show()
+        {
+            _show(_root);
+        }
+        private void _show(Node<T>? root)
         {
             if (root == null)
             {
                 return;
             }
-            Show(root.LeftChild);
+            _show(root.LeftChild);
             Console.WriteLine(root);
-            Show(root.RightChild);
-            
+            _show(root.RightChild);
         }
 
-        public Node<T>? Find(int key, Node<T>? root)
+        // encapsulation stejne jako u find
+        public Node<T>? Find(int key)
+        {
+            return _find(key, _root);
+        }
+        private Node<T>? _find(int key, Node<T>? root)
         {
             if (root == null)
             {
@@ -78,16 +88,22 @@ namespace BinaryTree
             }
             if (root.Key < key)
             {
-                return Find(key, root.RightChild);
+                return _find(key, root.RightChild);
             }
             if (root.Key > key)
             {
-                return Find(key, root.LeftChild);
+                return _find(key, root.LeftChild);
             }
             return null;
         }
 
-        public Node<T> FindMin(Node<T>? root)
+        
+        // encapsulation stejne jako u find
+        public Node<T>? FindMin()
+        {
+            return _findMin(_root);
+        }
+        private Node<T> _findMin(Node<T>? root)
         {
             if (root == null)
             {
@@ -99,10 +115,15 @@ namespace BinaryTree
                 return root;
             }
 
-            return FindMin(root.LeftChild);
+            return _findMin(root.LeftChild);
         }
 
-        public Node<T>? Delete(int key, Node<T>? root)
+        // encapsulation stejne jako u find
+        public void Delete(int key)
+        {
+            _delete(key, _root);
+        }
+        private Node<T>? _delete(int key, Node<T>? root)
         {
             if (root == null)
             {
@@ -111,11 +132,11 @@ namespace BinaryTree
 
             if (key < root.Key)
             {
-                root.LeftChild = Delete(key, root.LeftChild);
+                root.LeftChild = _delete(key, root.LeftChild);
             }
             else if (key > root.Key)
             {
-                root.RightChild = Delete(key, root.RightChild);
+                root.RightChild = _delete(key, root.RightChild);
             }
             else
             {
@@ -128,11 +149,31 @@ namespace BinaryTree
                     return root.LeftChild;
                 }
 
-                Node<T>? s = FindMin(root.RightChild);
+                Node<T>? s = _findMin(root.RightChild);
                 root.Key = s.Key;
-                root.RightChild = Delete(s.Key, root.RightChild);
+                root.RightChild = _delete(s.Key, root.RightChild);
                 return root;
             }
+            return root;
+        }
+
+        // encapsulation stejne jako u find
+        public void TreeToAvl()
+        {
+            _listNodes = _listNodes.OrderBy(node => node.Key).ToList();
+            _root = _treeToAvl(_listNodes, 0, _listNodes.Count - 1);
+        }
+        private Node<T>? _treeToAvl(List<Node<T>> list, int left, int right)
+        {
+            if (left > right)
+            {
+                return null;
+            }
+
+            int mid = (left + right) / 2;
+            Node<T> root = list[mid];
+            root.LeftChild = _treeToAvl(list, left, mid - 1);
+            root.RightChild = _treeToAvl(list, mid + 1, right);
             return root;
         }
     }
