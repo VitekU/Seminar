@@ -1,0 +1,10 @@
+/Users/vitungermann/Desktop/seminář programování/mince/mince/bin/Debug/net7.0/mince
+/Users/vitungermann/Desktop/seminář programování/mince/mince/bin/Debug/net7.0/mince.dll
+/Users/vitungermann/Desktop/seminář programování/mince/mince/bin/Debug/net7.0/mince.pdb
+/Users/vitungermann/Desktop/seminář programování/mince/mince/obj/Debug/net7.0/mince.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitungermann/Desktop/seminář programování/mince/mince/obj/Debug/net7.0/mince.AssemblyInfoInputs.cache
+/Users/vitungermann/Desktop/seminář programování/mince/mince/obj/Debug/net7.0/mince.AssemblyInfo.cs
+/Users/vitungermann/Desktop/seminář programování/mince/mince/obj/Debug/net7.0/mince.csproj.CoreCompileInputs.cache
+/Users/vitungermann/Desktop/seminář programování/mince/mince/obj/Debug/net7.0/mince.dll
+/Users/vitungermann/Desktop/seminář programování/mince/mince/obj/Debug/net7.0/refint/mince.dll
+/Users/vitungermann/Desktop/seminář programování/mince/mince/obj/Debug/net7.0/mince.pdb
