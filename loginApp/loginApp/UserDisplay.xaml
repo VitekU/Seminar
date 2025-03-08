@@ -1,0 +1,39 @@
+﻿<Page x:Class="loginApp.UserDisplay"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:loginApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="UserDisplay">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1">
+            <Image
+               Name ="profilePicture"
+               HorizontalAlignment="Center"  
+               Width="150" Height="150">
+                <Image.Clip>
+                    <EllipseGeometry Center="75,75" RadiusX="75" RadiusY="75"/>
+                </Image.Clip>
+            </Image>
+
+            <TextBlock HorizontalAlignment="Center" Text="Username:" FontSize="16" Margin="0 10 0 0"/>
+            <TextBlock Name="Username" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Text="" Margin="0 10 0 0"/>
+            <TextBlock HorizontalAlignment="Center" Text="Hláška:" FontSize="16" Margin="0 10 0 0"/>
+            <TextBlock Name="Quote" HorizontalAlignment="Center" Text="" FontSize="20" FontWeight="Bold" Margin="0 10 0 0"/>
+        </StackPanel>
+
+        <Button Content="Logout" HorizontalAlignment="Right" Width="100" Height="40" Margin="0 0 10 0" Click="Button_Click"/>
+        
+       
+
+    </Grid>
+</Page>

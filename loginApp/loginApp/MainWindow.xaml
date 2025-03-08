@@ -1,0 +1,34 @@
+﻿<Window x:Class="loginApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Login">
+                <Grid>
+                    <Frame Name="MainFrame" NavigationUIVisibility="Hidden"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Registrace">
+                <Grid>
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+                        <TextBlock Text="Username:" Margin="0,10"/>
+                        <TextBox Name="UsernameTextBox" Width="250" Margin="0,5"/>
+
+                        <TextBlock Text="Password:" Margin="0,10"/>
+                        <PasswordBox Name="PasswordBox" Width="250" Margin="0,5"/>
+
+                        <TextBlock Text="Hláška:" Margin="0,10"/>
+                        <TextBox Name="Quote" Width="250" Margin="0,5"/>
+
+                        <Button Content="Nahrajte profilovou fotku" Width="250" Margin="0,10" Click="fotka_Click"/>
+                        <Button Content="Register" Width="250" Margin="0,10" Click="Button_Click"/>
+
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
