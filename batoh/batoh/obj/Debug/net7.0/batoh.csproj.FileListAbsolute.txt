@@ -1,0 +1,10 @@
+/Users/vitungermann/Desktop/seminář programování/batoh/batoh/bin/Debug/net7.0/batoh
+/Users/vitungermann/Desktop/seminář programování/batoh/batoh/bin/Debug/net7.0/batoh.dll
+/Users/vitungermann/Desktop/seminář programování/batoh/batoh/bin/Debug/net7.0/batoh.pdb
+/Users/vitungermann/Desktop/seminář programování/batoh/batoh/obj/Debug/net7.0/batoh.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitungermann/Desktop/seminář programování/batoh/batoh/obj/Debug/net7.0/batoh.AssemblyInfoInputs.cache
+/Users/vitungermann/Desktop/seminář programování/batoh/batoh/obj/Debug/net7.0/batoh.AssemblyInfo.cs
+/Users/vitungermann/Desktop/seminář programování/batoh/batoh/obj/Debug/net7.0/batoh.csproj.CoreCompileInputs.cache
+/Users/vitungermann/Desktop/seminář programování/batoh/batoh/obj/Debug/net7.0/batoh.dll
+/Users/vitungermann/Desktop/seminář programování/batoh/batoh/obj/Debug/net7.0/refint/batoh.dll
+/Users/vitungermann/Desktop/seminář programování/batoh/batoh/obj/Debug/net7.0/batoh.pdb

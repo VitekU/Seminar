@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vitungermann/Desktop/seminář programování/mince/mince/mince.csproj": {}
+    "/Users/vitungermann/Desktop/seminář programování/batoh/batoh/batoh.csproj": {}
   },
   "projects": {
-    "/Users/vitungermann/Desktop/seminář programování/mince/mince/mince.csproj": {
+    "/Users/vitungermann/Desktop/seminář programování/batoh/batoh/batoh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vitungermann/Desktop/seminář programování/mince/mince/mince.csproj",
-        "projectName": "mince",
-        "projectPath": "/Users/vitungermann/Desktop/seminář programování/mince/mince/mince.csproj",
+        "projectUniqueName": "/Users/vitungermann/Desktop/seminář programování/batoh/batoh/batoh.csproj",
+        "projectName": "batoh",
+        "projectPath": "/Users/vitungermann/Desktop/seminář programování/batoh/batoh/batoh.csproj",
         "packagesPath": "/Users/vitungermann/.nuget/packages/",
-        "outputPath": "/Users/vitungermann/Desktop/seminář programování/mince/mince/obj/",
+        "outputPath": "/Users/vitungermann/Desktop/seminář programování/batoh/batoh/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vitungermann/.nuget/NuGet/NuGet.Config"
