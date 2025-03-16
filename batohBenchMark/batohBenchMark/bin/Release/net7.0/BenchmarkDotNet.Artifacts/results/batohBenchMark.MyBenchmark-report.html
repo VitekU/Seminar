@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>batohBenchMark.MyBenchmark-20250316-211343</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.14.0, macOS Sequoia 15.3.2 (24D81) [Darwin 24.3.0]
+Apple M1, 1 CPU, 8 logical and 8 physical cores
+.NET SDK 7.0.400
+  [Host]     : .NET 7.0.14 (7.0.1423.51910), Arm64 RyuJIT AdvSIMD
+  DefaultJob : .NET 7.0.14 (7.0.1423.51910), Arm64 RyuJIT AdvSIMD
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method               </th><th>Mean   </th><th>Error </th><th>StdDev</th><th>Gen0</th><th>Gen1</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>Knapsack_Backtracking</td><td>537,467.35 ns</td><td>1,293.515 ns</td><td>1,080.144 ns</td><td>248.0469</td><td>1.9531</td><td>1560241 B</td>
+</tr><tr><td>Knapsack_DynamicProgramming</td><td>79.27 ns</td><td>0.153 ns</td><td>0.136 ns</td><td>0.0254</td><td>-</td><td>160 B</td>
+</tr></tbody></table>
+</body>
+</html>
