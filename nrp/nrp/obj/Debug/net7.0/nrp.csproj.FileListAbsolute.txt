@@ -1,0 +1,10 @@
+/Users/vitungermann/Desktop/seminář programování/nrp/nrp/bin/Debug/net7.0/nrp
+/Users/vitungermann/Desktop/seminář programování/nrp/nrp/bin/Debug/net7.0/nrp.dll
+/Users/vitungermann/Desktop/seminář programování/nrp/nrp/bin/Debug/net7.0/nrp.pdb
+/Users/vitungermann/Desktop/seminář programování/nrp/nrp/obj/Debug/net7.0/nrp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitungermann/Desktop/seminář programování/nrp/nrp/obj/Debug/net7.0/nrp.AssemblyInfoInputs.cache
+/Users/vitungermann/Desktop/seminář programování/nrp/nrp/obj/Debug/net7.0/nrp.AssemblyInfo.cs
+/Users/vitungermann/Desktop/seminář programování/nrp/nrp/obj/Debug/net7.0/nrp.csproj.CoreCompileInputs.cache
+/Users/vitungermann/Desktop/seminář programování/nrp/nrp/obj/Debug/net7.0/nrp.dll
+/Users/vitungermann/Desktop/seminář programování/nrp/nrp/obj/Debug/net7.0/refint/nrp.dll
+/Users/vitungermann/Desktop/seminář programování/nrp/nrp/obj/Debug/net7.0/nrp.pdb
